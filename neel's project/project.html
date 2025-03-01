@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hindustan Times</title>
+    
+    <style>
+        @font-face {
+    font-family: 'HindustanTimes';
+    src: url('HindustanTimes.ttf') format('truetype');
+}
+
+.logo {
+    font-family: 'HindustanTimes', serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 10;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #00264d;
+}
+
+nav ul li {
+    padding: 10px 50px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.featured-news {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.featured-news img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.news-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.news-grid article {
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.news-grid article img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #00264d;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="logo">Hindustan Times</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#">India</a></li>
+                <li><a href="#">World</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Entertainment</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="featured-news">
+            <img src="breaking news 4.webp" alt="Featured News">
+            <h2>Breaking News: Major Event Happens</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </section>
+        
+        <section class="news-grid">
+            <article>
+                <img src="headline 1.webp"alt="News 1">
+                <h3>News Headline 1</h3>
+                <p>Brief news description...</p>
+            </article>
+            <article>
+                <img src="headline2.webp" alt="News 2">
+                <h3>News Headline 2</h3>
+                <p>Brief news description...</p>
+            </article>
+            <article>
+                <img src="zzz.webp" alt="News 3">
+                <h3>News Headline 3</h3>
+                <p>Brief news description...</p>
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Hindustan Times. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
